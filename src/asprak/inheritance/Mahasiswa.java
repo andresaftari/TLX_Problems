@@ -1,4 +1,4 @@
-package asprak.agregasi;
+package asprak.inheritance;
 
 public class Mahasiswa extends Kelas {
     public Mahasiswa(String kode) {

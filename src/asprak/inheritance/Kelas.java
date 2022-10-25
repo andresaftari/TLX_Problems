@@ -1,4 +1,4 @@
-package asprak.agregasi;
+package asprak.inheritance;
 
 public class Kelas {
     private String kode;
