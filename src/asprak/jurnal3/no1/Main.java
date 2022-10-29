@@ -13,6 +13,7 @@ public class Main {
         Mahasiswa mhs6 = new Mahasiswa("6303", "Zayn");
         Mahasiswa mhs7 = new Mahasiswa("6304", "Rahmat");
 
+        // INI NAMANYA AGREGASI, KITA TULIS DULU MAHASISWA SECARA LENGKAP
         d3if.addMhs(mhs1);
         d3if.addMhs(mhs2);
         d3if.addMhs(mhs3);
@@ -29,6 +30,9 @@ public class Main {
     private static void display(Jurusan jurusan) {
         System.out.println("\nKode: " + jurusan.getKode() + "\nNama: " + jurusan.getNama());
         System.out.println("Daftar Mahasiswa:");
-        jurusan.getMhs().forEach(it -> System.out.println("\t" + it.getNim() + " - " + it.getNama())); // Lambda for
+
+        for (Mahasiswa mhs: jurusan.getMhs()) {
+            System.out.println("\t" + mhs.getNim() + " - " + mhs.getNama());
+        }
     }
 }

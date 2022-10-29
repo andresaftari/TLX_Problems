@@ -7,8 +7,11 @@ public class Main {
         Hospital hospital01 = new Hospital("Siloam", 2870);
         Hospital hospital02 = new Hospital("Mayapada", 2878);
 
-        hospital01.setNurse(new Nurse(4000, "Angel"));
-        hospital02.setNurse(new Nurse(3000, "Alfian"));
+        hospital01.setNurse(new Nurse(4000, "Andre"));
+        hospital01.setNurse(new Nurse(4000, "Andzz"));
+
+        hospital02.setNurse(new Nurse(3000, "Dree"));
+        hospital02.setNurse(new Nurse(3000, "Thwee"));
 
         System.out.println("Berikut Data Rumah Sakit Beserta Data Perawat Rumah Sakit Tersebut :");
         display(hospital01);

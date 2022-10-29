@@ -5,7 +5,7 @@ def __factorial__(n):
     if n <= 1:
         return 1
     else:
-        return n * __factorial__(n-1)
+        return n * __factorial__(n - 1)
 
 
 print(__factorial__(3))

@@ -6,3 +6,7 @@ if num_b > 1:
     print('YES')
 else:
     print('NO')
+
+
+def __cicak__():
+    print('HA')
