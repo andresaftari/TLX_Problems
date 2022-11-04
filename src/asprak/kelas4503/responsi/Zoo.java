@@ -60,15 +60,13 @@ public class Zoo {
         }
     }
 
-    public void deleteHewan(String jenis) {
+    public void deleteHewan(String nama) {
         for (int i = 0; i < zooList.size(); i++) {
-            if (jenis.equalsIgnoreCase("Karnivora")) {
+            if (nama.equalsIgnoreCase(((Karnivora) zooList.get(i)).getNamaHewan())) {
                 if (zooList.get(i) instanceof Karnivora) {
-                    zooList.remove(i);
-                }
-            } else if (jenis.equalsIgnoreCase("Herbivora")) {
-                if (zooList.get(i) instanceof Herbivora) {
-                    zooList.remove(i);
+                    zooList.remove(zooList.get(i));
+                } else if (zooList.get(i) instanceof Herbivora) {
+                    zooList.remove(zooList.get(i));
                 }
             }
         }

@@ -33,6 +33,10 @@ public class Main {
 
                     if (jenis.equalsIgnoreCase("Karnivora")) {
                         Karnivora kar = new Karnivora(habitat, nama);
+                        zoo.inputHewan(kar);
+                    } else if (jenis.equalsIgnoreCase("Herbivora")) {
+                        Herbivora her = new Herbivora(habitat, nama);
+                        zoo.inputHewan(her);
                     }
                     
                     break;
