@@ -10,9 +10,9 @@ public class Kontrak extends Karyawan {
 
     @Override
     public void display() {
-        System.out.println("Karyawan Kontrak" +
+        System.out.println("asprak.kelas4504.topik5.Karyawan asprak.kelas4504.topik5.Kontrak" +
                 "\nNama: " + super.nama +
                 "\nGaji Dasar: " + super.gaDas +
-                "\nLama Kontrak: " + this.waktu);
+                "\nLama asprak.kelas4504.topik5.Kontrak: " + this.waktu);
     }
 }

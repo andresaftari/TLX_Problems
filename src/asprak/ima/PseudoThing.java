@@ -1,7 +1,7 @@
 package asprak.ima;
 
 public class PseudoThing {
-    private static int[] example = new int[3];
+    private static final int[] example = new int[3];
 
     public static void main(String[] args) {
         example[0] = 23;
