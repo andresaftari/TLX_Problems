@@ -1,8 +1,13 @@
 package asprak.ima;
 
-public class Test {
+import java.util.Scanner;
+
+public class Hanoi {
     public static void main(String[] args) {
-        ops(3, "A", "C", "B");
+        Scanner sc = new Scanner(System.in);
+
+        int jumlahDisc = sc.nextInt();
+        ops(jumlahDisc, "A", "C", "B");
     }
 
     private static void ops(int n, String start, String dest, String mid) {
