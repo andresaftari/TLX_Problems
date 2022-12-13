@@ -23,8 +23,7 @@ public class TraceLetter {
                 }
             }
 
-
-
+            System.out.println(vowel);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
