@@ -22,11 +22,9 @@ public class Example {
     }
 
     public static void main(String[] args) {
-        String cek = "ha";
+//        String cek = "ha";
 
         factorial2(3); // void (procedural)
         System.out.println(factorial1(3)); // return (functional)
     }
-
-
 }
