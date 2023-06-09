@@ -16,9 +16,9 @@ if __name__ == '__main__':
 
     while pilihan < 4:
         print("\n1. Input lagu"
-              "\n2. Hapus lagu"
-              "\n3. Menampilkan lagu"
-              "\n4. Exit")
+            "\n2. Hapus lagu"
+            "\n3. Menampilkan lagu"
+            "\n4. Exit")
         pilihan = int(input())
 
         if pilihan == 1:
@@ -29,8 +29,8 @@ if __name__ == '__main__':
             opsi = 0
             while opsi < 3:
                 print("\n1. Hapus berdasarkan judul"
-                      "\n2. Hapus terakhir"
-                      "\n3. Back to menu")
+                    "\n2. Hapus terakhir"
+                    "\n3. Back to menu")
 
                 opsi = int(input())
                 if opsi == 1:
