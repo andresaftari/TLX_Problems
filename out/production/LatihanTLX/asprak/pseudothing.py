@@ -17,8 +17,5 @@ def __test_calculation__(x):
     return res
 
 
-if __name__ == '__main__':
-    print('in trials: ', __test_calculation__(2))
-    print('in pseudo: ', __calculation__(2))
-
-
+print('in trials: ', __test_calculation__(2))
+print('in pseudo: ', __calculation__(2))
