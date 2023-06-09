@@ -2,7 +2,7 @@ package asprak.ass2;
 
 import java.util.Comparator;
 
-public class Customer implements Comparator<Customer> {
+public class Customer implements Comparable<Customer> {
     int id, tanggalMasuk, berat, finish;
     String nama, tipe;
 
@@ -26,8 +26,15 @@ public class Customer implements Comparator<Customer> {
         return "idCuci = " + id + ", namaPelanggan = " + nama;
     }
 
+    public int getPriority(String tipe) {
+        if (tipe.equalsIgnoreCase("biasa")) return 3;
+        else if (tipe.equalsIgnoreCase("express")) return 2;
+        else if (tipe.equalsIgnoreCase("kilat")) return 1;
+        return 0;
+    }
+
     @Override
-    public int compare(Customer o1, Customer o2) {
-        return Integer.compare(o2.finish, o1.finish);
+    public int compareTo(Customer customer) {
+        return 0;
     }
 }

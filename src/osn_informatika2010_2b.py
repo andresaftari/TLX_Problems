@@ -22,7 +22,7 @@ c9 = int(n / 1)
 n = n - c9
 
 if c0 != 0:
-    print(1000, c0)u
+    print(1000, c0)
 if c1 != 0:
     print(500, c1)
 if c2 != 0:
